@@ -1,0 +1,62 @@
+body {
+  background-color: #393e46;
+}
+form {
+text-align: center;
+margin-top: 5%;
+}
+input {
+  font-size: 120%;
+  margin-bottom: 3%;
+  width: 100%;
+}
+button{
+  font-size: 120%;
+  margin-top: 1%;
+  width: 100%;
+  background-color: #00adb5;
+  color: #fff4e0;
+  border: none;
+}
+.form-heading {
+  font-size: 120%;
+  color: #fff4e0;
+  text-align: center;
+
+}
+.prefix-i {
+  font-size: 151%;
+  font-style: italic;
+  color: #fc3c3c;
+}
+.suffix-reporter {
+  font-size: 152%;
+  color: #f8b500;
+}
+.link-sign-up {
+  font-size: 80%;
+  color: #fff4e0;
+  text-decoration-line: underline;
+}
+.container {
+  background-color: #393e46;
+  padding-top: 5%;
+
+}
+.content {
+  width: 22%;
+  margin: auto;
+}
+.circular-img {
+  width: 100px;
+  height: 100px;
+  background-image: url('../img/mic.jpg');
+  display: block;
+  background-size: cover;
+  margin: auto;
+  margin-bottom: 10%;
+  border-radius: 100px;
+ -webkit-border-radius: 100px;
+ -moz-border-radius: 100px;
+
+}
