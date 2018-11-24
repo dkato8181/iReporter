@@ -9,15 +9,40 @@ input {
   font-size: 120%;
   margin-bottom: 3%;
   width: 100%;
+  padding: 1%;
 }
-button{
+button {
   font-size: 120%;
   margin-top: 1%;
   width: 100%;
   background-color: #00adb5;
   color: #fff4e0;
   border: none;
+  padding: 1%;
 }
+header {
+  width: 100%;
+  background-color: #00adb5;
+  height: 10vh;
+}
+aside {
+  width: 30%;
+  display: inline-block;
+  margin-left: 5%;
+  vertical-align: top;
+}
+section {
+  width: 40%;
+  display: inline-block;
+  overflow-y: auto;
+  height: 90%;
+}
+footer {
+  width: 100%;
+  background-color: #00adb5;
+  height: 10vh;
+}
+
 .form-heading {
   font-size: 120%;
   color: #fff4e0;
@@ -50,7 +75,7 @@ button{
 .circular-img {
   width: 100px;
   height: 100px;
-  background-image: url('../img/mic.jpg');
+  background-image: url('img/mic.jpg');
   display: block;
   background-size: cover;
   margin: auto;
@@ -59,4 +84,51 @@ button{
  -webkit-border-radius: 100px;
  -moz-border-radius: 100px;
 
+}
+.brand {
+  text-align: center;
+  font-size: 180%;
+  margin-bottom: 10%; 
+}
+.brand-nav {
+  text-align: left;
+  font-size: 180%;
+  width: 50%;
+  display: inline-block;
+}
+.links-nav {
+  text-align: right;
+  width: 50%;
+  display: inline-block;
+}
+.middle {
+  margin: auto;
+  width: 90%;
+  height: 80vh;
+  padding: 2%;
+}
+.card {
+  background-color: #fff4e0;
+  color: #393e46;
+  padding: 2%;
+  border-radius: 10px;
+  margin: 1%;
+}
+.card-header {
+
+}
+.card-body {
+  width: 100%;
+  height: 90px;
+  font-size: 90%;
+  overflow-y: auto;
+}
+.card-footer {
+  
+}
+.red-flag {
+  color: #fc3c3c;
+}
+.intervention {
+  color: #f8b500;
 }
